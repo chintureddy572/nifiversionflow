@@ -1,0 +1,5 @@
+flows:
+  0caa24c4-0a03-4584-bdc4-9e5f75d02eba: {ver: 1, file: NifiFlow-Main.snapshot, comments: '',
+    author: anonymous, created: 1714407212914, flowName: NifiFlow-Main, flowDesc: ''}
+layoutVer: 1
+bucketId: 590b77e7-f045-4f71-bbb4-f300b9a984a6
