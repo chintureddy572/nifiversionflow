@@ -1,0 +1,86 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "executionEngine" : "INHERITED",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "216d5032-6ddf-3b93-a13e-8bdbd57295f0",
+        "inputPorts" : [ ],
+        "instanceIdentifier" : "2ac19228-018f-1000-169e-b3a030d6a872",
+        "labels" : [ ],
+        "maxConcurrentTasks" : 1,
+        "name" : "ETL2",
+        "outputPorts" : [ ],
+        "parameterContextName" : "DevParamContext",
+        "position" : {
+          "x" : -1224.0,
+          "y" : -360.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ ],
+        "remoteProcessGroups" : [ ],
+        "scheduledState" : "ENABLED",
+        "statelessFlowTimeout" : "1 min"
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : {
+        "DevParamContext" : {
+          "componentType" : "PARAMETER_CONTEXT",
+          "inheritedParameterContexts" : [ ],
+          "name" : "DevParamContext",
+          "parameters" : [ {
+            "description" : "",
+            "name" : "PostgresDBConnection",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "jdbc:postgresql://localhost:5432/postgres?user=postgres&password=Test@123"
+          }, {
+            "description" : "",
+            "name" : "UploadFiles_Dir",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "C:\\chintu\\UploadFiles"
+          }, {
+            "description" : "",
+            "name" : "Fileconnection",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "C:\\chintu\\UploadFiles\\uploadsampleexcelcsv.csv"
+          }, {
+            "description" : "",
+            "name" : "DriverLocation",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "C:\\Projects\\postgresql-42.7.1.jar"
+          }, {
+            "description" : "",
+            "name" : "PostgresDBServerConnection",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "jdbc:postgresql://kundanpostgres.postgres.database.azure.com:5432/postgres"
+          }, {
+            "description" : "",
+            "name" : "MovedFiles_Dir",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "C:\\chintu\\MovedFiles"
+          } ]
+        }
+      },
+      "parameterProviders" : { }
+    }
+  }
+}
